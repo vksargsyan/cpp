@@ -2,7 +2,7 @@
 
 /**
  * GCD program
- * http://coliru.stacked-crooked.com/a/
+ * http://coliru.stacked-crooked.com/a/fb3f0d186a930371
  */
  
 int gcd(int num1, int num2) {
