@@ -2,7 +2,7 @@
 
 /**
  * Palindrom program
- * http://coliru.stacked-crooked.com/a/6bb45af38a33a616
+ * http://coliru.stacked-crooked.com/a/6b237eb13235e747
  */
 
 int absolute(int num)
@@ -12,12 +12,12 @@ int absolute(int num)
 
 bool isSingleDigit(int num)
 {
-  return (num >= 0 && num < 10) ? true : false;
+  return (num >= 0 && num < 10);
 }
 
 bool endsWithZero(int num)
 {
-  return (num % 10 == 0) ? true : false;
+  return (num % 10 == 0);
 }
 
 int reverse(int num)
@@ -53,9 +53,7 @@ bool isPalindrom(int num)
   if (endsWithZero(prep))
     return false;
 
-  int reversed = reverse(prep);
-
-  return reversed == num;
+  return reverse(prep) == prep;
 }
 
 int main()
