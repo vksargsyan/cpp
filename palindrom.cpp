@@ -1,5 +1,10 @@
 #include <iostream>
 
+/**
+ * Palindrom program
+ * http://coliru.stacked-crooked.com/a/6bb45af38a33a616
+ */
+
 int absolute(int num)
 {
   return (num < 0) ? -num : num;
